@@ -12,7 +12,13 @@
     background: #FFFFFF;
     margin: 47px 30px 30px 42px;
     cursor: pointer;
+}
 
+.indice:hover{
+    opacity: 0.8;
+}
+.indice:active{
+    opacity: 0.5;
 }
 
 .button-header {
@@ -25,8 +31,16 @@
     height: 51px;
     border-radius: 6px;
     margin-top: 30px;
-    cursor:pointer
+    cursor:pointer;
+    box-shadow: 2px 2px 5px 0px rgba(0,0,0,0.5); 
 }
+.button-header:hover{
+    opacity: 0.8;
+}
+.button-header:active{
+    opacity: 0.5;
+}
+
 
 
 .titulo {
@@ -66,6 +80,14 @@ main {
     font-weight: 500;
     cursor: pointer;
     border: none;
+}
+
+.button-section:hover{
+    opacity: 0.8;
+}
+
+.button-section:active{
+    opacity: 0.5;
 }
 
 @media screen and (max-width: 900px) {
