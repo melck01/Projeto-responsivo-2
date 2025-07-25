@@ -1,0 +1,122 @@
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.indice {
+    font-size: 14px;
+    font-weight: 400;
+    color: #17233D;
+    background: #FFFFFF;
+    margin: 47px 30px 30px 42px;
+    cursor: pointer;
+
+}
+
+.button-header {
+    font-size: 16px;
+    font-weight: 500;
+    color: #FFFFFF;
+    background: #6FBF44;
+    border: 1px solid #4CB538;
+    width: 124px;
+    height: 51px;
+    border-radius: 6px;
+    margin-top: 30px;
+    cursor:pointer
+}
+
+
+.titulo {
+    color: #161A49;
+    font-size: 62px;
+    font-weight: 700;
+    
+}
+
+main { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 84.82px; 
+    margin-top: 246px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.pai{
+    max-width: 493px;
+}
+
+.paragrafo{
+    color: #4B505A;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    text-align: justify;
+    margin-top: 47px;
+    margin-bottom: 57px;
+}
+
+.button-section {
+    color: #6FBF44;
+    background: transparent ;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    border: none;
+}
+
+@media screen and (max-width: 900px) {
+    div{
+        width: 100vw;
+        height: auto;
+        
+    }
+    main {
+        flex-direction: column;
+    }
+    .pai{
+        order: 0;
+    }
+
+    .indice {
+        display: none;
+    }
+    .button-header {
+        width: 91px;
+        height: 31px;
+        position: absolute;
+        right: 17px;
+        top: 17px;
+        font-size: 12px;
+        font-weight: 100%;
+    }
+    .titulo {
+        width: 278px;
+        height: 60px;
+        font-size: 30px;
+        font-weight: 30px;
+        letter-spacing: 0.6;
+        text-align: center;
+    }
+    .paragrafo{
+        font-size: 18px;
+        line-height: 33px;
+        text-align: center;
+        letter-spacing: 0.5;
+    }
+    .button-section{
+        margin-left: 84px;
+    }
+
+    .img{
+        width: 312px;
+        height: 288px;
+        position: static;
+        margin: 0 0;
+        order: 1;
+        display: block;
+    }
+}
